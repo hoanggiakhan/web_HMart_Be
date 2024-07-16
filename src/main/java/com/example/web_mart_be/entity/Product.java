@@ -3,13 +3,11 @@ package com.example.web_mart_be.entity;
 import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Data;
-import org.springframework.data.annotation.Id;
 
 import java.util.List;
 
 @Data
 @Entity
-@Builder
 @Table(name = "product")
 public class Product {
     @Id
